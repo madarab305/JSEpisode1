@@ -18,10 +18,32 @@
 *       pairs() returns []
 ****************************************************************/
 function pairs(names) {
+	pairs === []
+
+	if (!names){
+		return []
+}
+
+		else if (names.length === 0) {
+		return [];
+	}
+
+	else if(names.length === 1) {
+		names.push(names[0], names[0+1]);
+	}
+	else if (names.indexOf(1) > -1) {
+
+	else if (names.indexOf())
+    //do stuff with array
+
+
+	
+	
   // Your code goes here
 }
 
 export default pairs;
+pairs['yahya', 'aziz', 'mahatma'];
 
 /**********************************************
 * READ ME!!!!
